@@ -10,7 +10,7 @@
       <Description>
 
         [RivalAI Behavior]
-        [BehaviorName:SSE-CargoShip-Behavior]
+        [BehaviorName:CargoShip]
         [AutopilotData:MES-DefaultAutoPilot-CargoShip]
         [Trigger:SSE-Autostop-Trigger]
         [Trigger:SSE-Autostart-Trigger]
