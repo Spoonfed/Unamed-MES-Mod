@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SSE-Autostart-Trigger</SubtypeId>
+      </Id>
+      <Description>
+        
+        [RivalAI Trigger]
+        
+        [UseTrigger:true]
+        [Type:PlayerFar]
+        [TargetDistance:3000]
+        
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Action:SSE-AutoStart-Action]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SSE-Autostart-Action</SubtypeId>
+      </Id>
+      <Description>
+      
+      [RivalAI Action]
+
+      [ChangeAutopilotSpeed:true]
+      [NewAutopilotSpeed:25]
+      [ChangeInertiaDampeners:true]
+      [InertiaDampenersEnable:false]
+      
+      </Description>
+
+    </EntityComponent>
+  </EntityComponents>
+</Definitions>
